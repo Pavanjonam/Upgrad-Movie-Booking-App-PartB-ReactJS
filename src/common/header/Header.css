@@ -1,0 +1,48 @@
+.app-header {
+  background-color: #222;
+  height: 36px;
+  padding: 8px 32px 8px 16px;
+}
+.login-button {
+  float: right;
+}
+.app-logo {
+  animation: app-logo-spin infinite 8s linear;
+  height: 35px;
+  background: #ff7f7f;
+}
+.bookshow-button {
+  float: right;
+  margin-right: 8px;
+}
+.app-logo {
+    background-color: #ff7f7f;
+    height: 35px;
+    width: 50px;    
+    animation: tt ;
+    animation-duration: 8s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    top: 0;
+    left: 0;
+  }
+
+  .tabs {
+    margin-bottom: 20px;
+}
+
+.dispNone {
+    display: none;
+}
+
+.dispBlock {
+    display: block;
+}
+
+.red {
+    color: red;
+}
+  @keyframes tt {
+  from { transform: scaleX(-1); }
+  }
